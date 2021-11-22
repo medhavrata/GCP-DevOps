@@ -1,0 +1,51 @@
+# Types of Services:
+
+- IAAS: You have full control and can install any software
+- Managed Services (PAAS): You just admin the service
+- Serverless: This is just the API calls
+
+## Compute
+- Compute Engine (Virtual Machine)
+- Kubernetes Engine
+- VMware Engine
+
+## Serverless
+- Cloud Run
+- Cloud Functions
+- App Engine
+
+## Storage
+- Filestore
+- Cloud Storage
+- Data Transfer
+
+## Databases
+- Bigtable
+- Datastore
+- Database Migration
+- Firestore
+- Memorystore
+- Spanner
+- SQL
+
+## Application Integration
+- API Gateway
+- Cloud Scheduler
+- Cloud Tasks
+- Workflows
+
+## Networking
+- VPC Network
+
+## CI/CD
+- Cloud Build
+- Cloud Deploy
+- Container Registry
+- Artifact Registry
+- Source Repositories
+
+## IAC
+- Deployment Manager
+
+## Monitoring
+- Stackdriver
