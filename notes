@@ -5,14 +5,31 @@
 - Serverless: This is just the API calls
 
 ## Compute
+
 - Compute Engine (Virtual Machine)
+
 - Kubernetes Engine
+
 - VMware Engine
 
 ## Serverless
-- Cloud Run
-- Cloud Functions
-- App Engine
+
+- Cloud Run:
+  - This is used to run stateless HTTP containers
+  - This does not run on VMs, this service is being used to run the docker images
+  - On GCP, open the console -> make a new directory and put the source code/Docker file -> enable the cloudrun/container registry APIs -> run
+    'gcloud run deploy' command to deploy the app as container
+  
+- Cloud Functions:
+  - This is being used to handle HTTP requests or events from many GCP resources
+  - Cloud functions is used for single purpose actions
+
+
+- App Engine: 
+  - This is a PAAS service
+  - This will start a VM to host the applications
+  - On GCP, open the console -> make a new directory to host the source code -> put all the required source files for the application -> enable
+    the App Engine API-> run 'gcloud app deploy' to deploy the applicaiton to App Engine -> Application will be running
 
 ## Storage
 - Filestore
