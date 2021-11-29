@@ -66,3 +66,9 @@
 
 ## Monitoring
 - Stackdriver
+
+
+
+## Auto Scaling
+- Create Instance Template for Auto Scaling and define the policy for auto scaling. Then create an Instance Group which will create the VM instances as
+  per the instance template.
