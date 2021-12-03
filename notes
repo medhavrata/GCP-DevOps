@@ -53,6 +53,9 @@
 
 ## Networking
 - VPC Network
+  - Can create a VPC network per project
+  - Can also create an organization and create one hosted VPC which can be shared by other projects
+  - Network Intelligence Center can be used to visulize network topology and test network connectivity
 
 ## CI/CD
 - Cloud Build
