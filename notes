@@ -1,3 +1,10 @@
+# Heirarchy
+
+Organization -> Folders -> Project
+
+
+
+
 # Types of Services:
 
 - IAAS: You have full control and can install any software
@@ -7,6 +14,11 @@
 ## Compute
 
 - Compute Engine (Virtual Machine)
+    - Instances
+    - Instance groups
+    - Images
+    - Snapshots
+    - Custom images must be compatible
 
 - Kubernetes Engine
 
